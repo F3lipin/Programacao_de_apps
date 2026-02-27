@@ -1,0 +1,41 @@
+class Aluno{
+ 
+    private String name;
+
+    private int idade; 
+
+    private String registration;
+  
+   Aluno(){
+  }
+
+  public Aluno(String name, int idade, String registration){
+      this.name = name;
+      this.idade = idade;
+      this.registration = registration;
+  }
+   
+  public String getname(){
+    return this.name;
+  }
+
+  public void setName(String name){
+    this.name = name;
+ }
+
+  public int getidade(){
+    return this.idade;
+  }
+
+  public void setIdade(int idade){
+    this.idade = idade;
+ }
+  
+  public String getregistration(){
+    return this.registration;
+  }
+
+  public void setRegistration(String registration){
+    this.registration = registration;
+ }
+}
