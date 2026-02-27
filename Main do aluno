@@ -1,0 +1,18 @@
+class main{
+     public static void main(String[] args) {
+        Aluno a = new Aluno();
+
+        a.setName("CauanCouto");
+
+        System.out.println(a.getname());
+
+        Aluno a2 = new Aluno("Kleber", 20, "12345678");
+        Aluno a3 = new Aluno("NK", 19, "40028922");
+        Aluno a4 = new Aluno("Don", 24, "987654321");
+        Aluno a5 = new Aluno("Ronaldo", 17, "6574811890");
+        System.out.println(a2.getname() + " " + a2.getidade() + " " + a2.getregistration());
+        System.out.println(a3.getname() + " " + a3.getidade() + " " + a3.getregistration());
+        System.out.println(a4.getname() + " " + a4.getidade() + " " + a4.getregistration());
+        System.out.println(a5.getname() + " " + a5.getidade() + " " + a5.getregistration());
+ } 
+}
